@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  background: #ee8f40;
+}
+
+.dashboard-button {
+  padding: 20px;
+  height: 400px;
+  width: 300px;
+  font-size: 20px;
+  font-family: roboto;
+  background-color: #53917e;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-button:hover {
+  background-color: #1E88E5;
+  color: white;
+}

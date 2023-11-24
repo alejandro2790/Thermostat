@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  background: #66d8d8
+}
+
+.dashboard-button {
+  padding: 20px;
+  height: 400px;
+  width: 300px;
+  font-size: 20px;
+  font-family: roboto;
+  background-color: #ffffff;
+  color: #063991;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transition: all .2s ease-in-out;
+}
+
+.dashboard-button:hover {
+  background-color: #d14e7e;
+  color: white;
+  transform: scale(1.1);
+
+}
+
+#emergency-button {
+  padding: 20px;
+  height: 75px;
+  width: 300px;
+  font-size: 20px;
+  font-family: roboto;
+  position: fixed;
+  background-color: #e74c3c; /* Set your button color */
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  bottom: 50px;
+  left: 130px;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  transition: all .2s ease-in-out;
+}
+
+#emergency-button:hover {
+  background-color: #e67e22;
+  color: white;
+  transform: scale(1.1);
+
+}

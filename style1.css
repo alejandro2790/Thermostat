@@ -1,0 +1,116 @@
+
+/* Top Botton Right */
+.call-help-button-container {
+  position: fixed;
+  top: 35px; /* Adjust this value to change the distance from the top */
+  right: 35px; /* Adjust this value to change the distance from the right */
+  z-index: 999; /* Ensures the button is above other elements */
+}
+
+#top-right-button {
+  padding: 10px 20px;
+  font-size: 40px;
+  background-color: #26b3ea; /* Change the background color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: roboto;
+}
+
+#top-right-button:hover {
+  background-color: #45a049; /* Change the background color on hover */
+}
+
+/* Bottom Botton Right */
+.back-container {
+  position: fixed;
+  bottom: 35px; /* Adjust this value to change the distance from the top */
+  left: 35px; /* Adjust this value to change the distance from the right */
+  z-index: 999; /* Ensures the button is above other elements */
+}
+
+#bottom-left-button {
+  padding: 10px 20px;
+  font-size: 40px;
+  background-color: #D7E6C9; /* Change the background color */
+  color: #273381;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: roboto;
+}
+
+#bottom-left-button:hover {
+  background-color: #45a049; /* Change the background color on hover */
+}
+
+/* Thermostat */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #FCF8E3; /* Adjust background color as needed */
+}
+
+.circle-container {
+  position: relative;
+}
+
+.circle {
+  width: 300px; /* Adjust circle size as needed */
+  height: 300px;
+  border-radius: 50%;
+  border: 15px solid white; 
+  background-color: #acdeff; /* Adjust circle background color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:  #273381;
+  font-size: 90px;
+  box-shadow: 10px 10px 18px #ba9607;
+  font-family: roboto;
+}
+
+.circle-text {
+  position: absolute;
+  bottom: 100%; /* Center the text vertically */
+  left: 50%; /* Center the text horizontally */
+  transform: translate(-50%, -50%); /* Center the text perfectly */
+  color: #273381;
+  font-size: 60px;
+  font-family: roboto;
+}
+
+.buttons {
+  position: absolute;
+  top: 0;
+  right: -130px; /* Adjust distance from the right */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.button {
+  margin-top: 50px; /* Adjust the space between buttons */
+  padding: 10px;
+  background-color: #FFCC00; /* Adjust button background color */
+  color: #273381;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 85px; /* Set the width of the button */
+  height: 85px; /* Set the height of the button */
+  font-size: 30px;
+  box-shadow: 1px 1px 1px #000000;
+  font-family: roboto;
+}
+
+.button:hover {
+  background-color: #27ae60; /* Change button background color on hover */
+}
+
+
